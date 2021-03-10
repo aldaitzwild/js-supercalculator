@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Calculator !</title>    
+</head>
+<body>
+
+    <header>
+        <h1>Super Calculator !!</h1>
+    </header>
+
+    <main>
+
+        <p>
+            <label for="firstNumber">Chiffre 1 : </label>
+            <input type="number" name="firstNumber" id="firstNumber">
+        </p>
+
+        <p>
+            <label>Opérateur : </label>
+            <select name="operator" id="operator">
+                <option></option>
+                <option>+</option>
+                <option>-</option>
+                <option>*</option>
+                <option>/</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="secondNumber">Chiffre 2 : </label>
+            <input type="number" name="secondNumber" id="secondNumber">
+        </p>
+
+        <p>
+            <button id="btnCalcul">Calculer</button>
+        </p>
+
+        <p>
+            Le resultat est <b id="result"></b>
+        </p>
+
+    </main>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
